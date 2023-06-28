@@ -2,8 +2,8 @@ run with
 
 ``` console
 $ dotnet run --project fafa
-0
+x.CompareTo(y) ===>  actual: 0 (expected: 0)
 $ MONO_ENV_OPTIONS=--interp dotnet run --project fafa
-253
+x.CompareTo(y) ===>  actual: 253 (expected: 0)
 ```
 
